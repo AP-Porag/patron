@@ -4,51 +4,49 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html"><span>Com</span>pany</a></h1>
+      <NuxtLink to="/"><img src="~/assets/img/logo.svg" alt="" height="40px" style="margin-right: 10px"></NuxtLink>
+      <h1 class="logo me-auto"><NuxtLink to="/" class="link"><span>Pat</span>Ron</NuxtLink></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><NuxtLink to="/" class="active link">Home</NuxtLink></li>
 
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><NuxtLink to="#" class="link"><span>Products</span> <i class="bi bi-chevron-down"></i></NuxtLink>
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><NuxtLink to="/product/1" class="link">Product One</NuxtLink></li>
+              <li><NuxtLink to="#" class="link">Team</NuxtLink></li>
+              <li><NuxtLink to="testimonials.html" class="link">Testimonials</NuxtLink></li>
+              <li class="dropdown"><NuxtLink to="#" class="link"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></NuxtLink>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><NuxtLink to="#" class="link">Deep Drop Down 1</NuxtLink></li>
+                  <li><NuxtLink to="#" class="link">Deep Drop Down 2</NuxtLink></li>
+                  <li><NuxtLink to="#" class="link">Deep Drop Down 3</NuxtLink></li>
+                  <li><NuxtLink to="#" class="link">Deep Drop Down 4</NuxtLink></li>
+                  <li><NuxtLink to="#" class="link">Deep Drop Down 5</NuxtLink></li>
                 </ul>
               </li>
             </ul>
           </li>
 
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><NuxtLink to="/about" class="link">About Us</NuxtLink></li>
+          <li><NuxtLink to="/gallery" class="link">Gallery</NuxtLink></li>
+          <li><NuxtLink to="/support" class="link">Support</NuxtLink></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
       <div class="header-social-links d-flex">
-        <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+        <NuxtLink to="#" class="twitter link"><i class="bu bi-twitter"></i></NuxtLink>
+        <NuxtLink to="#" class="facebook link"><i class="bu bi-facebook"></i></NuxtLink>
+        <NuxtLink to="#" class="instagram link"><i class="bu bi-instagram"></i></NuxtLink>
+        <NuxtLink to="#" class="linkedin link"><i class="bu bi-linkedin"></i></NuxtLink>
       </div>
 
     </div>
   </header><!-- End Header -->
-
   <main id="main">
 
     <RouterView></RouterView>
@@ -63,7 +61,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Company</h3>
+            <h3>Patron</h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
@@ -111,14 +109,14 @@
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>Patron</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!-- Licensing information: https://asrafporag.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://asrafporag.com/Patron-free-html-bootstrap-template/ -->
+          Designed by <a href="https://asrafporag.com/">asrafporag</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
