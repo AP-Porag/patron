@@ -51,7 +51,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Clients</h2>
+          <h2>Partners</h2>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">

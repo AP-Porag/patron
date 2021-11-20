@@ -15,16 +15,24 @@
 
           <li class="dropdown"><NuxtLink to="#" class="link"><span>Products</span> <i class="bi bi-chevron-down"></i></NuxtLink>
             <ul>
-              <li><NuxtLink to="/product/1" class="link">Product One</NuxtLink></li>
-              <li><NuxtLink to="#" class="link">Team</NuxtLink></li>
-              <li><NuxtLink to="testimonials.html" class="link">Testimonials</NuxtLink></li>
-              <li class="dropdown"><NuxtLink to="#" class="link"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></NuxtLink>
+<!--              <li><NuxtLink to="/product/1" class="link">Product One</NuxtLink></li>-->
+              <li class="dropdown"><NuxtLink to="#" class="link"><span>Fan</span> <i class="bi bi-chevron-right"></i></NuxtLink>
                 <ul>
-                  <li><NuxtLink to="#" class="link">Deep Drop Down 1</NuxtLink></li>
-                  <li><NuxtLink to="#" class="link">Deep Drop Down 2</NuxtLink></li>
-                  <li><NuxtLink to="#" class="link">Deep Drop Down 3</NuxtLink></li>
-                  <li><NuxtLink to="#" class="link">Deep Drop Down 4</NuxtLink></li>
-                  <li><NuxtLink to="#" class="link">Deep Drop Down 5</NuxtLink></li>
+                  <li><NuxtLink to="/product/1" class="link">36" Celling Fan</NuxtLink></li>
+                  <li><NuxtLink to="/product/2" class="link">56" Celling Fan</NuxtLink></li>
+                </ul>
+              </li>
+              <li class="dropdown"><NuxtLink to="#" class="link"><span>Gas Stove</span> <i class="bi bi-chevron-right"></i></NuxtLink>
+                <ul>
+                  <li><NuxtLink to="/product/3" class="link">SS Gas Stove</NuxtLink></li>
+                  <li><NuxtLink to="/product/4" class="link">Glass Gas Stove</NuxtLink></li>
+                </ul>
+              </li>
+              <li class="dropdown"><NuxtLink to="#" class="link"><span>Stabilizer</span> <i class="bi bi-chevron-right"></i></NuxtLink>
+                <ul>
+                  <li><NuxtLink to="/product/5" class="link">700VA Stabilizer</NuxtLink></li>
+                  <li><NuxtLink to="/product/6" class="link">1100VA Stabilizer</NuxtLink></li>
+                  <li><NuxtLink to="/product/7" class="link">2200VA Stabilizer</NuxtLink></li>
                 </ul>
               </li>
             </ul>
@@ -32,7 +40,7 @@
 
           <li><NuxtLink to="/about" class="link">About Us</NuxtLink></li>
           <li><NuxtLink to="/gallery" class="link">Gallery</NuxtLink></li>
-          <li><NuxtLink to="/support" class="link">Support</NuxtLink></li>
+          <li><NuxtLink to="/contact" class="link">Contact</NuxtLink></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

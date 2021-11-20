@@ -567,6 +567,12 @@ section {
   transition: 0.5s;
   position: relative;
 }
+.services .icon-box .icon img {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+  width: 50px;
+}
 .services .icon-box .icon svg {
   position: absolute;
   top: 0;
