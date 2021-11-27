@@ -3,51 +3,58 @@ export const state = () => ({
     {
       id: 1,
       category:"Fan",
+      detail:"Steel,Aluminium",
       title: "36 inches celling Fan",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-1.jpg"
+      image: "fan-36.jpeg"
     },
     {
       id: 2,
       category:"Fan",
+      detail:"Steel,Aluminium",
       title: "56 inches celling Fan",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-2.jpg"
+      image: "fan-56.jpeg"
     },
     {
       id: 3,
       category:"Gas Stove",
-      title: "SS Gas Stove",
+      detail:"Steel,Aluminium",
+      title: "Double Burner Stove",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-3.jpg"
+      image: "stove-double-burner.jpeg"
     },
     {
       id: 4,
       category:"Gas Stove",
-      title: "Glass Gas Stove",
+      detail:"Steel,Aluminium",
+      title: "Single Burner Stove",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-1.jpg"
+      image: "stove-single-burner.jpeg"
     },
     {
       id: 5,
       category:"Stabilizer",
+      detail:"700 VA,1100 VA,2200 VA",
       title: "700VA Stabilizer",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-2.jpg"
+      image: "stabilizer.jpeg"
     },
     {
       id: 6,
       category:"Stabilizer",
+      detail:"700 VA,1100 VA,2200 VA",
       title: "1100VA Stabilizer",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-3.jpg"
+      image: "stabilizer.jpeg"
     },
     {
       id: 7,
       category:"Stabilizer",
+      detail:"700 VA,1100 VA,2200 VA",
       title: "2200VA Stabilizer",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis omnis blanditiis eos, vitae accusamus rem eveniet veritatis voluptas expedita exercitationem at enim perspiciatis alias culpa sint sapiente! Omnis debitis velit nesciunt ratione alias eius officia nobis illum tempora et est iusto maiores possimus, ad aperiam necessitatibus voluptas quis quod, ab soluta sequi voluptate quibusdam. Reiciendis saepe iusto id totam!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      image: "portfolio-details-1.jpg"
+      image: "stabilizer.jpeg"
     },
   ]
 })

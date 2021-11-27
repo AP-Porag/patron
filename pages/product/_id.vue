@@ -45,9 +45,10 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Product information</h3>
               <ul>
                 <li><strong>Category</strong>: {{product.category}}</li>
+                <li><strong>{{product.category=='Stabilizer'?'Capacity':'Types'}}</strong>: {{product.detail}}</li>
               </ul>
             </div>
             <div class="portfolio-description">

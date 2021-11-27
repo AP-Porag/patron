@@ -24,8 +24,8 @@
               </li>
               <li class="dropdown"><NuxtLink to="#" class="link"><span>Gas Stove</span> <i class="bi bi-chevron-right"></i></NuxtLink>
                 <ul>
-                  <li><NuxtLink to="/product/3" class="link">SS Gas Stove</NuxtLink></li>
-                  <li><NuxtLink to="/product/4" class="link">Glass Gas Stove</NuxtLink></li>
+                  <li><NuxtLink to="/product/3" class="link">Double Burner Stove</NuxtLink></li>
+                  <li><NuxtLink to="/product/4" class="link">Single Burner Stove</NuxtLink></li>
                 </ul>
               </li>
               <li class="dropdown"><NuxtLink to="#" class="link"><span>Stabilizer</span> <i class="bi bi-chevron-right"></i></NuxtLink>
@@ -71,33 +71,31 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Patron</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Neelerpara <br>
+              Gazipur Sadar,Gazipur<br>
+              Bangladesh <br><br>
+              <strong>Phone:</strong> +880 1761 61 38 33<br>
+              <strong>Phone:</strong> +880 1711 78 00 14<br>
+              <strong>Email:</strong> connectingpatron@gmail.com<br>
             </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/">Home</NuxtLink></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/about">About us</NuxtLink></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/gallery">Gallery</NuxtLink></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/contact">Contact</NuxtLink></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Our Products</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/product/1">Fan</NuxtLink></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/product/3">Gas Stove</NuxtLink></li>
+              <li><i class="bx bx-chevron-right"></i> <NuxtLink to="/product/5">Stabilizer</NuxtLink></li>
             </ul>
           </div>
 
@@ -124,7 +122,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://asrafporag.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://asrafporag.com/Patron-free-html-bootstrap-template/ -->
-          Designed by <a href="https://asrafporag.com/">asrafporag</a>
+          Design and developed by <a href="https://asrafporag.me" target="_blank">Asraf Porag</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
